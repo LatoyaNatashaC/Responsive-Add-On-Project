@@ -1,17 +1,47 @@
-h1 {
+body {
   font-family: "poppins", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 96px;
-  line-height: 144px;
+  background: #272044;
 }
+
 header {
-  background-image: url("../images/lagunabeach.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/lagunabeach.png");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  text-align: center;
+  padding: 260px 0;
+}
+header h1 {
+  font-weight: 700;
+  font-size: 96px;
+}
+header h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1, 5;
+}
+header h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1, 5;
+  letter-spacing: 5px;
+  margin: 0;
+}
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background: white;
+  text-decoration: none;
+  color: #272044;
+  padding: 16px 32px;
+  display: inline-block;
 }
 .container {
   max-width: 1400px;
   margin: 0 auto;
+  line-height: 1.5;
 }
