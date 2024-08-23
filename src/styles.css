@@ -3,6 +3,16 @@ body {
   background: #272044;
 }
 
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+.boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/lagunabeach.png");
@@ -42,11 +52,7 @@ header a {
   padding: 16px 32px;
   display: inline-block;
 }
-.container {
-  max-width: 1400px;
-  margin: 0 auto;
-  line-height: 1.5;
-}
+
 footer {
   color: white;
   background-image: linear-gradient(
@@ -54,10 +60,33 @@ footer {
       rgba(39, 32, 68, 0.7)
     ),
     url("../images/lagunafooter.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
 }
 footer a {
   color: white;
+  opacity: 0.7;
 }
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.7;
+}
+footer ul {
+  padding: 0;
+}
+footer li {
+  list-style: none;
+  padding: 0;
+}
+
 @media (max-width: 1024px) {
   header {
     padding: 60px 0;
