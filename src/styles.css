@@ -47,6 +47,9 @@ header a {
   margin: 0 auto;
   line-height: 1.5;
 }
+footer {
+  color: white;
+}
 @media (max-width: 1024px) {
   header {
     padding: 60px 0;
