@@ -1,8 +1,17 @@
 h1 {
-  color: red;
   font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 96px;
   line-height: 144px;
+}
+header {
+  background-image: url("../images/lagunabeach.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
 }
