@@ -49,6 +49,7 @@ header a {
 }
 footer {
   color: white;
+  background-image: url("../images/lagunafooter.png");
 }
 footer a {
   color: white;
