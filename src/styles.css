@@ -16,7 +16,9 @@ section {
   max-width: 1200px;
   margin: 0 auto;
 }
-
+.image-about {
+  width: 30%;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/lagunabeach.png");
