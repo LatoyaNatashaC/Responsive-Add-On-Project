@@ -10,7 +10,7 @@ body {
 .grid {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  grid-gap: 10px;
+  grid-gap: 64px;
 }
 section {
   max-width: 1200px;
