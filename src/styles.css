@@ -5,21 +5,28 @@ body {
 .container {
   max-width: 1400px;
   margin: 0 auto;
-  line-height: 1.5;
 }
 .grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
   grid-gap: 64px;
 }
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+.grid-3-columns-footer {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+.img-responsive {
+  max-width: 100%;
+  display: block;
+}
+
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
   padding: 100px 0;
 }
-.image-about {
-  width: 50%;
-}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/lagunabeach.png");
@@ -132,5 +139,15 @@ footer li {
   }
   header h3 {
     font-size: 12px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+  section {
+    padding: 30px;
+  }
+  main h3 {
+    font-size: 48px;
   }
 }
