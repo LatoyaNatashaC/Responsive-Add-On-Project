@@ -15,9 +15,10 @@ body {
 section {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 100px 0;
 }
 .image-about {
-  width: 30%;
+  width: 50%;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -58,6 +59,33 @@ header a {
   padding: 16px 32px;
   display: inline-block;
 }
+main {
+  background-color: white;
+}
+main h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  color: #272044;
+  opacity: 0.3;
+  text-transform: uppercase;
+  margin: 0;
+}
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0;
+}
+main p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #272044;
+  opacity: 0.7;
+}
 footer {
   color: white;
   background-image: linear-gradient(
@@ -67,7 +95,6 @@ footer {
     url("../images/lagunafooter.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px 0;
 }
 footer a {
   color: white;
