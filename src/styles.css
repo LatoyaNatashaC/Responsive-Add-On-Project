@@ -22,9 +22,17 @@ body {
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
 .card {
   background: white;
   margin: 30px 0;
+}
+.card-header.grid {
+  grid-gap: 0;
 }
 .card-body {
   padding: 30px;
@@ -47,7 +55,7 @@ body {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
@@ -196,5 +204,11 @@ footer li {
   }
   main h3 {
     font-size: 48px;
+  }
+  .card-header img {
+    aspect-ratio: 16/9;
+  }
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
