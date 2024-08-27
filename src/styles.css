@@ -206,9 +206,9 @@ footer li {
     font-size: 48px;
   }
   .card-header img {
-    aspect-ratio: 16/9;
+    aspect-ratio: 16/12;
   }
   .embed {
-    aspect-ratio: 16/9;
+    aspect-ratio: 16/12;
   }
 }
